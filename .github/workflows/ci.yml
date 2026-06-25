@@ -7,8 +7,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
+          cache: pip
       - name: Install deps
         run: python -m pip install --upgrade pip && pip install -r requirements.txt
       - name: Syntax check
-        run: python -m py_compile $(git ls-files "*.py")
+        run: |
+          for f in $(git ls-files "*.py"); do echo "py_compile $f"; python -m py_compile "$f"; done
