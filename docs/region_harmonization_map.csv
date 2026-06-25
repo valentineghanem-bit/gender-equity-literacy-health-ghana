@@ -1,0 +1,23 @@
+dhs_location_label,canonical_region,included,note
+..Northeast,North East,yes,post-2019 region
+..Northern(post 2022),Northern,yes,post-2019 region
+..Savannah,Savannah,yes,post-2019 region
+Ahafo,Ahafo,yes,post-2019 region
+Ashanti,Ashanti,yes,post-2019 region
+Bono,Bono,yes,post-2019 region
+Bono East,Bono East,yes,post-2019 region
+Central,Central,yes,post-2019 region
+Eastern,Eastern,yes,post-2019 region
+Greater Accra,Greater Accra,yes,post-2019 region
+Oti,Oti,yes,post-2019 region
+Upper East,Upper East,yes,post-2019 region
+Upper West,Upper West,yes,post-2019 region
+Volta (post 2022),Volta,yes,post-2019 region
+Western (post 2022),Western,yes,post-2019 region
+Western North,Western North,yes,post-2019 region
+Brong-Ahafo,,no,pre-2019 region (split into Ahafo/Bono/Bono East)
+Northern (pre 2022),,no,pre-2019 region (split into Northern/Savannah/North East)
+"Northern, Upper West, Upper East",,no,pre-2019 combined northern stratum
+Volta (pre 2022),,no,pre-2019 region (split into Volta/Oti)
+Western (pre 2022),,no,pre-2019 region (split into Western/Western North)
+#loc+name,,no,HXL header artefact row

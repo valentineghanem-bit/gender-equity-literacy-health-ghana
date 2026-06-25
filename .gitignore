@@ -17,7 +17,13 @@ docs/PHASE*.md
 docs/STAGE*.md
 docs/datalog*.md
 docs/DATA_USAGE*.md
-evidence/
 qa/PHASE*.md
 qa/STAGE*.md
-qa/QA_REPORT_*.md
+# superseded / non-standard outputs (kept LOCAL; not part of the standard repo layout)
+docs/policy_brief_GHS.md
+qa/QA_6PASS_REPORT.md
+qa/QA_REPORT_2026-06-25.md
+qa/SYNC_REPORT.md
+qa/sync-manifest.json
+evidence/lit-review/evidence_bank_phase1.md
+.gitkeep
