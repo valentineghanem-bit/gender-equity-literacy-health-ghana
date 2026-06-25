@@ -18,6 +18,11 @@
 - [x] **Phase 6 — COMPLETE (items 1–5):** (1) STROBE/RECORD-Spatial/TRIPOD-AI checklists (`manuscript/SUPPLEMENT_reporting_checklists.md`); (2) council Trigger B — figure/table cross-ref gap (Fig 4) fixed, 0 unresolved markers; (3) /qa PASS all 5 deliverables (`qa/QA_REPORT_2026-06-25.md` + QA_PASSED badge); (4) `.docx` rendered (local, Tenet 20); (5) **GitHub repo live + pushed** (github.com/valentineghanem-bit/gender-equity-literacy-health-ghana, 82 files, no manuscript leak, verified). Journal: PLOS Global Public Health (APC $0). External follow-up: **Zenodo DOI** (needs account) → README badge + poster QR; author adds funding/COI/data-availability at submission.
 
 ## Current phase
+- [x] **Phase 7 / Stage 12 — DISSEMINATE (final stage; gated on QA_PASSED ✓):** council Reviewer-2 pre-submission stress-test; submission package (cover letter, plain-language summary, highlights, significance, suggested reviewers, submission + medRxiv checklists, anticipated reviewer responses) → `manuscript/submission/SUBMISSION_PACKAGE.md` (local); **GHS/MoH policy brief** → `docs/policy_brief_GHS.md` (pushed). Vancouver refs confirmed.
+
+**PROJECT 16 COMPLETE end-to-end (Phases 0–7).** Author actions remaining: actual journal submission (PLOS Global Public Health) + Zenodo DOI.
+
+## (history) Current phase
 Phase 0 fully reconciled. Awaiting design lock, then Phase 1.
 
 ## Hard rules in force

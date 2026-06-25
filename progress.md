@@ -36,10 +36,12 @@
 
 - **Phase 6 COMPLETE (items 1–5, 2026-06-25):** reporting checklists (Supplement S1); council Trigger B (Fig-4 cross-ref fixed, 0 unresolved); **/qa PASS all 5 deliverables** (`qa/QA_REPORT_2026-06-25.md` + QA_PASSED badge); `.docx` rendered (local); **GitHub repo live & pushed** (github.com/valentineghanem-bit/gender-equity-literacy-health-ghana — 82 files, HEAD e063e25, no manuscript leak, no token leak, verified). Journal: PLOS Global Public Health (APC $0 Ghana).
 
-**Status: Phases 0–6 COMPLETE & verified. Project 16 deliverables Q1-passed.**
+- **Phase 7 / Stage 12 DISSEMINATE complete (2026-06-25):** council Reviewer-2 stress-test (no fatal flaw; responses prepared); submission package → `manuscript/submission/SUBMISSION_PACKAGE.md` (local); policy brief → `docs/policy_brief_GHS.md` (pushed, HEAD 609f6e9).
 
-**Remaining (external, non-blocking)**
-- Mint Zenodo DOI → add badge to README + QR to poster. Author inserts funding/COI/data-availability at manuscript submission.
+**STATUS: PROJECT 16 COMPLETE end-to-end (Phases 0–7). All 5 deliverables Q1-passed; repo live; dissemination package ready.**
+
+**Remaining (external/author, non-blocking)**
+- Actual journal submission to PLOS Global Public Health (author). Mint Zenodo DOI → README badge + poster QR. Insert funding/COI statements at submission.
 
 **Resume instruction**
 Read this + task_plan.md + docs/PHASE1_*§6b + docs/PHASE2_DATA_BUILD.md. Re-run `analysis/phase2_build_master.py` after adding any Cowork files. Then Phase 3.
