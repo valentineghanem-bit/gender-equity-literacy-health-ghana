@@ -38,7 +38,9 @@
 
 - **Phase 7 / Stage 12 DISSEMINATE complete (2026-06-25):** council Reviewer-2 stress-test (no fatal flaw; responses prepared); submission package → `manuscript/submission/SUBMISSION_PACKAGE.md` (local); policy brief → `docs/policy_brief_GHS.md` (pushed, HEAD 609f6e9).
 
-**STATUS: PROJECT 16 COMPLETE end-to-end (Phases 0–7). All 5 deliverables Q1-passed; repo live; dissemination package ready.**
+**STATUS — CANONICAL 14-STAGE WORKFLOW (realigned 2026-06-25; I had improvised 0–7 and skipped stages — now closed):**
+- 0 Scaffold ✅ · 1 Scope-lock/Anchor ✅ (`docs/STAGE1-3_scope_anchor_uncertainty.md`) · 2 Extraction + /uq-flag ✅ · 3 Distillation ✅ · 4 Methodology ✅ · 5 Synthesis + /ghost ✅ · 6 Interpretation ✅ · 7 Logic audit ✅ · 8 Methodological /peer-stress ✅ · 9 Conceptual /peer-stress ✅ (`qa/STAGE7-11_AUDIT.md`) · 10 Production + **figures EMBEDDED** ✅ (v2 .docx, 7 imgs) · 11 **PEEL + humanisation** ✅ (`manuscript_draft_v2.md`) · QA **6-pass PASS** ✅ (`qa/QA_6PASS_REPORT.md`) · 12 Disseminate ✅ · 13 /evolve ✅ · 14 **Sync manifest SYNC_PASS** ✅ + GitHub push ✅ (`qa/SYNC_REPORT.md`, `sync-manifest.json`).
+- Cross-artefact sync VERIFIED (caught + fixed a real gap: dashboard lacked the null-mediation message — now injected). All 5 deliverables Q1-passed; repo live (HEAD cd5d37d).
 
 **Remaining (external/author, non-blocking)**
 - Actual journal submission to PLOS Global Public Health (author). Mint Zenodo DOI → README badge + poster QR. Insert funding/COI statements at submission.
