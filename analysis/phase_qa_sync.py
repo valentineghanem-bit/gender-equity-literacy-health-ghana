@@ -8,7 +8,7 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-M = (ROOT/"manuscript"/"manuscript_draft_v2.md").read_text(encoding="utf-8")
+M = (ROOT/"manuscript"/"manuscript_draft_v3.md").read_text(encoding="utf-8")
 V1 = (ROOT/"manuscript"/"manuscript_draft_v1.md").read_text(encoding="utf-8")
 D = (ROOT/"dashboard"/"HI-EI_Dashboard.html").read_text(encoding="utf-8", errors="ignore")
 P = (ROOT/"poster"/"A0_Poster.html").read_text(encoding="utf-8", errors="ignore")
@@ -28,7 +28,7 @@ fields = [
  ("RF R2 0.88",            ["0.876","R² (descriptive)","RF R"],        {"M":M,"D":D}),
  ("Total edu->U5MR -0.66", ["−0.66"], {"M":M,"D":D}),  # unicode minus only (avoid coord false-match)
  ("National U5MR 41.5",    ["41.5"],                {"M":M,"D":D}),
- ("North-South U5MR 49/40",["49 vs 40","49 against 40","49 vs. 40"], {"M":M,"D":D}),
+ ("North-South U5MR 49/40",["49 vs 40","49 against 40","49 vs. 40","49 versus 40"], {"M":M,"D":D}),
  ("Null service-mediation",["crossed zero","span 0","spanned zero","not the missing link","no support","near-universal","lever is upstream","not service-mediated","upstream"], {"M":M,"D":D,"P":P}),
  ("Primary outcome U5MR",  ["under-five mortality","U5MR"], {"M":M,"D":D,"P":P}),
  ("Design ecological",     ["ecological"],          {"M":M,"P":P}),
@@ -55,8 +55,10 @@ for r in matrix:
 
 # ---- 6-Pass QA ----
 from docx import Document
-docx=ROOT/"manuscript"/"Gender_Equity_Literacy_Health_Ghana_v2.docx"
-n_img=len(Document(str(docx)).inline_shapes) if docx.exists() else 0
+docx=ROOT/"manuscript"/"Gender_Equity_Literacy_Health_Ghana_v3.docx"
+_d=Document(str(docx)) if docx.exists() else None
+n_img=len(_d.inline_shapes) if _d else 0
+n_tab=len(_d.tables) if _d else 0
 med=pd.read_csv(ROOT/"outputs"/"tables"/"mediation_results.csv")
 ident_ok=all(abs(r["c(total)"]-(r["c'(direct)"]+r["indirect(a*b)"]))<=0.02 for _,r in med.iterrows())
 natl_u5=float((reg["y_u5mr"]*reg["ctx_total_pop"]).sum()/reg["ctx_total_pop"].sum())
@@ -65,8 +67,8 @@ passes=[
  ("Pass 1 Provenance/data integrity", len(reg)==16 and reg.isna().sum().sum()==0 and abs(natl_u5-41.5)<1.0),
  ("Pass 2 Methodological/statistical", ident_ok and (ROOT/"analysis"/"phase4_verify.py").exists()),
  ("Pass 3 Cross-artifact sync (12-field)", sync_ok),
- ("Pass 4 Q1 format (abstract+figures embedded+PEEL+checklists)",
-   ("Structured Abstract" in M) and n_img>=7 and (ROOT/"manuscript"/"SUPPLEMENT_reporting_checklists.md").exists()),
+ ("Pass 4 Q1 format (abstract+figures+TABLES embedded+PEEL+checklists)",
+   ("Structured Abstract" in M) and n_img>=7 and n_tab>=2 and (ROOT/"manuscript"/"SUPPLEMENT_reporting_checklists.md").exists()),
  ("Pass 5 Citations/anti-hallucination", ("CITE-VERIFY" not in M) and (len(re.findall(r"^\d+\. ", V1, re.M))>=25)),
  ("Pass 6 Reproducibility/ethics/Tenet-20",
    (ROOT/"run_all.sh").exists() and (ROOT/"Dockerfile").exists() and ("manuscript/" in gi)),

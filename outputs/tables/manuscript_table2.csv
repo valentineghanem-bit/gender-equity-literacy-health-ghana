@@ -1,0 +1,6 @@
+Exposure (X),Mediator (M),Outcome (Y),a (X→M),b (M→Y|X),Direct c',Total c,Indirect a·b,95% CI
+Women secondary+ education,RH-service index,Under-five mortality,0.52,0.424,-0.876,-0.655,0.22,"[-0.246, 0.935]"
+Gender-equity index,RH-service index,Under-five mortality,0.541,0.387,-0.872,-0.662,0.209,"[-0.479, 0.555]"
+Women secondary+ education,RH-service index,Child anaemia,0.52,0.209,-1.069,-0.96,0.109,"[-0.190, 0.401]"
+Women secondary+ education,RH-service index,Adolescent birth rate,0.52,0.129,-0.685,-0.618,0.067,"[-0.207, 0.628]"
+Gender-equity index,RH-service index,Adolescent birth rate,0.541,0.066,-0.619,-0.584,0.036,"[-0.478, 0.223]"
