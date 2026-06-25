@@ -27,3 +27,4 @@ qa/SYNC_REPORT.md
 qa/sync-manifest.json
 evidence/lit-review/evidence_bank_phase1.md
 .gitkeep
+dashboard/ghana_districts_compact.geojson

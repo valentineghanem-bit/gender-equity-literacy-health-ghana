@@ -41,8 +41,16 @@ docker build -t gelh-ghana . && docker run --rm gelh-ghana
 ## 8. Outputs
 `outputs/figures/` (choropleths, LISA maps, SHAP, mediation forest, Plotly supplementary), `outputs/tables/` (Table 1, spatial, mediation, importance), `outputs/data/` (LISA, MRH national context), `data/processed/` (master datasets + crosswalk).
 
-## 9. Dashboard & poster
-`dashboard/HI-EI_Dashboard.html` (interactive HI-EI; offline ECharts) and `poster/A0_Poster.html` (A0). Self-contained; colourblind-safe; associational caveat box. Open in any browser.
+## 9. Dashboard & poster — view or download
+
+Both are single self-contained offline HTML files (inline ECharts; no server or network needed).
+
+| Artefact | View on GitHub | Live preview | Direct download (raw HTML) |
+|---|---|---|---|
+| Interactive dashboard | [View](https://github.com/valentineghanem-bit/gender-equity-literacy-health-ghana/blob/main/dashboard/HI-EI_Dashboard.html) | [Preview](https://htmlpreview.github.io/?https://github.com/valentineghanem-bit/gender-equity-literacy-health-ghana/blob/main/dashboard/HI-EI_Dashboard.html) | [Download](https://raw.githubusercontent.com/valentineghanem-bit/gender-equity-literacy-health-ghana/main/dashboard/HI-EI_Dashboard.html) |
+| Conference poster (A0) | [View](https://github.com/valentineghanem-bit/gender-equity-literacy-health-ghana/blob/main/poster/A0_Poster.html) | [Preview](https://htmlpreview.github.io/?https://github.com/valentineghanem-bit/gender-equity-literacy-health-ghana/blob/main/poster/A0_Poster.html) | [Download](https://raw.githubusercontent.com/valentineghanem-bit/gender-equity-literacy-health-ghana/main/poster/A0_Poster.html) |
+
+> **Tip:** the dashboard works fully offline once downloaded; the poster is print-ready at A0 (841 × 1189 mm). To open a downloaded copy locally: `open dashboard/HI-EI_Dashboard.html` (macOS), `start dashboard\HI-EI_Dashboard.html` (Windows), or `xdg-open dashboard/HI-EI_Dashboard.html` (Linux).
 
 ## 10. Data dictionary
 `data/processed/variable_provenance.csv` — every variable → role → source file → indicator → survey → transform. District crosswalk: `docs/district_crosswalk_261_to_260.csv`.
