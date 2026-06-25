@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Gender Equity, Literacy and Multi-Domain Health Outcomes: Spatial Machine-Learning Mediation Analysis in Ghana"
+authors:
+  - family-names: Ghanem
+    given-names: Valentine Golden
+    email: valentineghanem@gmail.com
+abstract: >-
+  Ecological spatial machine-learning mediation analysis of gender equity, female
+  literacy and multi-domain child and maternal health across Ghana's 16 regions
+  (2022 DHS) and 261 districts (2021 Census), testing reproductive-health-service
+  mediation with Moran's I/LISA, Random Forest + SHAP, and bootstrap mediation.
+keywords:
+  - women's empowerment
+  - female literacy
+  - child mortality
+  - spatial epidemiology
+  - machine learning
+  - mediation analysis
+  - Ghana
+  - health equity
+license: MIT
+repository-code: "https://github.com/valentineghanem-bit/gender-equity-literacy-health-ghana"
+version: "1.0.0"
+date-released: "2026-06-25"

@@ -1,0 +1,7 @@
+feature,label,gini_importance,perm_importance,perm_sd
+illiteracy_rate,Illiteracy rate,0.7683,1.049,0.0861
+unemployment_rate,Unemployment rate,0.0519,0.1092,0.0098
+uninsured_rate,Uninsured rate,0.0495,0.0736,0.0072
+female_15_64_share,Female 15-64 share,0.0737,0.0542,0.0048
+lat,Latitude (northward),0.0338,0.0339,0.0045
+lon,Longitude,0.0228,0.0229,0.0025

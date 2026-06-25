@@ -1,0 +1,11 @@
+﻿__pycache__/
+*.pyc
+.pytest_cache/
+pytest-cache-files-*/
+.ipynb_checkpoints/
+_archive/
+# Manuscripts are NEVER committed to repos (Tenet 20) â€” kept locally, excluded from git:
+manuscript/
+*.docx
+*.tex
+*.pdf

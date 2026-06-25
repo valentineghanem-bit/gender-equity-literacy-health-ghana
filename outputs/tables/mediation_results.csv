@@ -1,0 +1,6 @@
+X,M,Y,a(X->M),b(M->Y|X),c'(direct),c(total),indirect(a*b),indirect_CI95,prop_mediated,CI_excludes_0
+x_women_secondary_plus,service_index,y_u5mr,0.52,0.424,-0.876,-0.655,0.22,"[-0.246, 0.935]",-0.336,False
+gei,service_index,y_u5mr,0.541,0.387,-0.872,-0.662,0.209,"[-0.479, 0.555]",-0.316,False
+x_women_secondary_plus,service_index,y_children_any_anemia,0.52,0.209,-1.069,-0.96,0.109,"[-0.190, 0.401]",-0.113,False
+x_women_secondary_plus,service_index,y_asfr_15_19,0.52,0.129,-0.685,-0.618,0.067,"[-0.207, 0.628]",-0.109,False
+gei,service_index,y_asfr_15_19,0.541,0.066,-0.619,-0.584,0.036,"[-0.478, 0.223]",-0.061,False

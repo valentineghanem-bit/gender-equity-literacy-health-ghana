@@ -1,0 +1,29 @@
+column,role,source_file,indicator,survey,transform
+x_final_say_women,EXPOSURE,select-gender-indicators_subnational_gha.csv,Final say in all of the decisions [Women],GH2022DHS,"region value, IsPreferred"
+x_wifebeating_justified_women,EXPOSURE,select-gender-indicators_subnational_gha.csv,Wife beating justified for at least one specific reason [Women],GH2022DHS,"region value, IsPreferred"
+x_no_land_women,EXPOSURE,select-gender-indicators_subnational_gha.csv,Do not own land [Women],GH2022DHS,"region value, IsPreferred"
+x_women_no_education,EXPOSURE,select-education-indicators_subnational_gha.csv,Women with no education,GH2022DHS,"region value, IsPreferred"
+x_women_secondary_plus,"EXPOSURE (human-capital, PRIMARY)",select-education-indicators_subnational_gha.csv,Women with secondary or higher education,GH2022DHS,"region value, IsPreferred"
+x_women_literate,"EXPOSURE (human-capital, SENSITIVITY)",literacy_subnational_gha.csv,Women who are literate,GH2022DHS,"region value, IsPreferred; never modelled jointly with education"
+x_women_cannot_read,EXPOSURE,literacy_subnational_gha.csv,Women who cannot read at all,GH2022DHS,"region value, IsPreferred"
+x_ipv_any,EXPOSURE,sdgs_subnational_gha.csv,Physical or sexual or emotional violence committed by husband/partner in last 12 months,GH2022DHS,"region value, IsPreferred"
+x_own_decision_all3,EXPOSURE,sdgs_subnational_gha.csv,Own decision making about all three decisions,GH2022DHS,"region value, IsPreferred"
+m_skilled_delivery,MEDIATOR,sdgs_subnational_gha.csv,Assistance during delivery from a skilled provider,GH2022DHS,"region value, IsPreferred"
+m_modern_cpr_married,MEDIATOR,fp2020_subnational_gha.csv,Married women currently using any modern method of contraception,GH2022DHS,"region value, IsPreferred"
+m_fp_demand_satisfied_modern,MEDIATOR,fp2020_subnational_gha.csv,Demand for family planning satisfied by modern methods,GH2022DHS,"region value, IsPreferred"
+m_ever_hiv_test,MEDIATOR,hiv-counseling-and-testing_subnational_gha.csv,Women ever receiving an HIV test,GH2022DHS,"region value, IsPreferred"
+m_anc_hiv_test,MEDIATOR,hiv-counseling-and-testing_subnational_gha.csv,Pregnant women tested for HIV during ANC or labor and receiving the results,GH2022DHS,"region value, IsPreferred"
+m_hiv_mtct_knowledge_women,MEDIATOR,hiv-knowledge_subnational_gha.csv,Knowledge of prevention of MTCT - special drugs during pregnancy [Women],GH2022DHS,PROXY for HIV knowledge (no comprehensive-AIDS-knowledge in 2022 export)
+y_women_any_anemia,OUTCOME,anemia_subnational_gha.csv,Women with any anemia,GH2022DHS,"region value, IsPreferred"
+y_children_any_anemia,OUTCOME,anemia_subnational_gha.csv,Children with any anemia,GH2022DHS,"region value, IsPreferred"
+y_u5mr,OUTCOME (PRIMARY),child-mortality-rates_subnational_gha.csv,Under-five mortality rate,GH2022DHS,region value; NMR/IMR = sensitivity
+y_nmr,OUTCOME (sensitivity),child-mortality-rates_subnational_gha.csv,Neonatal mortality rate,GH2022DHS,region value
+y_imr,OUTCOME (sensitivity),child-mortality-rates_subnational_gha.csv,Infant mortality rate,GH2022DHS,region value
+y_asfr_15_19,OUTCOME,sdgs_subnational_gha.csv,Age specific fertility rate: 15-19,GH2022DHS,adolescent birth rate per 1000 (in-scope source)
+ctx_total_pop,CONTEXT,Master Sheet.xlsx,Total Population,Census 2021,sum of district pop per region
+ctx_n_districts,CONTEXT,Master Sheet.xlsx,(count),Census 2021,districts per region (261 frame)
+ctx_illiteracy_rate,CONTEXT,Master Sheet.xlsx,Illiterate Population / Total Population,Census 2021,pop-weighted; ALL-AGE PROXY (denominator=total pop)
+ctx_uninsured_rate,CONTEXT,Master Sheet.xlsx,Uninsured Population / Total Population,Census 2021,pop-weighted
+ctx_poverty_incidence,CONTEXT,Master Sheet.xlsx,Incidence of Poverty,Census/GLSS,pop-weighted
+ctx_female_15_64_share,CONTEXT,Master Sheet.xlsx,Female 15-64 / Total Population,Census 2021,pop-weighted
+ctx_who_mrh_national,CONTEXT-INTRO-ONLY,maternal_and_reproductive_health_indicators_gha.csv,WHO GHO national series,WHO GHO,outputs/data/mrh_national_context.csv; NOT a region mediator

@@ -1,0 +1,6 @@
+item,orientation,item_total_corr,cronbach_alpha,n_items
+x_own_decision_all3,+,0.83,0.586,5
+x_final_say_women,+,0.841,0.586,5
+x_wifebeating_justified_women,-,0.747,0.586,5
+x_no_land_women,-,-0.003,0.586,5
+x_ipv_any,-,0.653,0.586,5

@@ -1,0 +1,5 @@
+scale,variable,morans_I,p_perm,n
+261-district,illiteracy_rate,0.7586,0.001,261
+261-district,poverty_incidence,0.6331,0.001,261
+16-region,ctx_illiteracy_rate,0.8031,0.001,16
+16-region,ctx_poverty_incidence,0.6837,0.001,16
