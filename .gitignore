@@ -9,3 +9,15 @@ manuscript/
 *.docx
 *.tex
 *.pdf
+# Internal planning / working & process files (kept LOCAL — not part of the published repo)
+task_plan.md
+progress.md
+findings.md
+docs/PHASE*.md
+docs/STAGE*.md
+docs/datalog*.md
+docs/DATA_USAGE*.md
+evidence/
+qa/PHASE*.md
+qa/STAGE*.md
+qa/QA_REPORT_*.md
