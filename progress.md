@@ -34,8 +34,12 @@
 - **Phase 6 manuscript v1 drafted** (`manuscript/manuscript_draft_v1.md`): full IMRAD + structured abstract + 25 cleared Vancouver refs; council Trigger A applied (associational; ≥2 CONTRASTING + Bessing 2026 same-data corroboration; SWPER-validated index). Journal DECIDED: **PLOS Global Public Health** (APC $0 for Ghana — R4L verified). New citations banked: Ewerling 2017, Bessing 2026, Cao 2026, Bai-Sesay 2025, Donkoh 2024.
 - **Q1 standard hardcoded** for all 5 deliverables (`memory/q1-format-all-deliverables` + `_system/Q1_DELIVERABLE_STANDARDS.md`).
 
-**Next (Phase 6 completion)**
-- STROBE/RECORD-Spatial/TRIPOD-AI checklists → council Trigger B sweep → /qa (5 deliverables vs Q1 spec) → render .docx (docx skill, local only) → GitHub repo (Q1) + Zenodo DOI + /github-publish (manuscript excluded).
+- **Phase 6 COMPLETE (items 1–5, 2026-06-25):** reporting checklists (Supplement S1); council Trigger B (Fig-4 cross-ref fixed, 0 unresolved); **/qa PASS all 5 deliverables** (`qa/QA_REPORT_2026-06-25.md` + QA_PASSED badge); `.docx` rendered (local); **GitHub repo live & pushed** (github.com/valentineghanem-bit/gender-equity-literacy-health-ghana — 82 files, HEAD e063e25, no manuscript leak, no token leak, verified). Journal: PLOS Global Public Health (APC $0 Ghana).
+
+**Status: Phases 0–6 COMPLETE & verified. Project 16 deliverables Q1-passed.**
+
+**Remaining (external, non-blocking)**
+- Mint Zenodo DOI → add badge to README + QR to poster. Author inserts funding/COI/data-availability at manuscript submission.
 
 **Resume instruction**
 Read this + task_plan.md + docs/PHASE1_*§6b + docs/PHASE2_DATA_BUILD.md. Re-run `analysis/phase2_build_master.py` after adding any Cowork files. Then Phase 3.
